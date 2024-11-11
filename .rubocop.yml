@@ -1,5 +1,12 @@
-Style/SymbolArray
+inherit_gem:
+  rubocop-rails-omakase: rubocop.yml
+
+Style/SymbolArray:
   Enabled: false
 
-Style/Documentation
+Style/Documentation:
   Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
