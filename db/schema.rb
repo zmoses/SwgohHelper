@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[8.0].define(version: 2024_11_14_070532) do
+ActiveRecord::Schema[8.0].define(version: 2024_11_14_073521) do
   # These are extensions that must be enabled in order to support this database
   enable_extension "pg_catalog.plpgsql"
 
@@ -33,7 +33,7 @@ ActiveRecord::Schema[8.0].define(version: 2024_11_14_070532) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "in_game_id"
-    t.string "player_id"
+    t.integer "player_id"
     t.integer "relic_level"
     t.integer "gear_level"
     t.integer "rarity_level"

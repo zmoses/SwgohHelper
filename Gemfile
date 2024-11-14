@@ -61,4 +61,5 @@ group :test do
   gem "factory_bot_rails", "~> 6.4", ">= 6.4.4"
   gem "rspec-rails", "~> 7.0", ">= 7.0.1"
   gem "selenium-webdriver"
+  gem "shoulda-matchers", "~> 6.0"
 end
